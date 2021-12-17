@@ -170,6 +170,19 @@ section#benefit {
   /* margin: 0 auto; */
 }
 
+.container .heading-sec,
+section#pricing .heading-sec {
+  display: flex;
+  justify-content: center;
+  padding: 5rem;
+}
+.container .heading-sec h2,
+section#pricing .heading-sec h2 {
+  font-size: 4rem;
+  color: var(--black);
+  text-align: center;
+}
+
 .container .services {
   display: flex;
   justify-content: center;
