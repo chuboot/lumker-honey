@@ -263,6 +263,10 @@ section#pricing {
   padding: 2rem 0.8rem;
 }
 
+.video-box iframe {
+  width: 100%;
+  height: 450px;
+}
 footer {
   display: flex;
   background-color: var(--orange);
@@ -287,12 +291,13 @@ footer p {
   }
 }
 
-.video-box {
+.video-box iframe {
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 2rem 6%;
-  height: 500px;
+  width: 100%;
+  height: auto;
 }
 
 @media (max-width: 768px) {
