@@ -57,12 +57,17 @@ header {
 }
 
 header .logo {
+  width: 20%;
   font-size: 2.5rem;
   color: var(--black);
   font-weight: bolder;
 }
 header .logo i {
   color: var(--orange);
+}
+
+header .logo img {
+  width: 100%;
 }
 
 header ul {
@@ -328,6 +333,10 @@ footer p {
     margin: 1rem;
     font-size: 2rem;
     background: #eee;
+  }
+
+  header .logo {
+    width: 45%;
   }
 
   .container .services {
